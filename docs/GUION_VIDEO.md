@@ -11,4 +11,4 @@ Grabar únicamente las operaciones que el equipo haya probado. Usar datos fictic
 | 3:00–3:50 | Consulta del estado y seguimiento con fotografía |
 | 3:50–4:30 | Repo, tablero, pruebas y limitaciones comprobadas |
 
-Pendiente: grabación, edición, duración comprobada y enlace reproducible. No demostrar el borrado en el sitio publicado: elimina también historial relacionado.
+Pendiente: grabación, edición, duración comprobada y enlace reproducible.

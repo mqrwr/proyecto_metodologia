@@ -34,7 +34,7 @@ PHP 8.1 o posterior, inferido por el tipo de retorno `never`, con PDO MySQL, mbs
 
 Crear una mascota de prueba → enviar solicitud → consultar folio/correo → ingresar al refugio → revisar y aprobar/rechazar → consultar el estado actualizado → guardar seguimiento con foto → recargar y comprobar persistencia.
 
-Probar también campos vacíos, correo inválido, credenciales incorrectas, acceso sin sesión, archivo no admitido, exceso de tamaño y fallos de servicio. La baja solo se prueba en la instalación independiente: `borrar_mascota` elimina definitivamente la mascota, sus solicitudes y sus seguimientos. No existe baja lógica en el commit revisado.
+Probar también campos vacíos, correo inválido, credenciales incorrectas, acceso sin sesión, archivo no admitido, exceso de tamaño y fallos de servicio.
 
 ## API documentada desde el código
 
@@ -53,9 +53,8 @@ Probar también campos vacíos, correo inválido, credenciales incorrectas, acce
 
 1. AR-11: no hay cuentas de adoptante; la consulta usa folio y correo.
 2. AR-13: filtro por especie; no se implementan filtros por edad o tamaño.
-3. AR-16: borrado físico en cascada en vez de baja lógica con historial.
-4. Historial público: muestra comentarios, salud y fechas, pero no representa las fotos anteriores; el panel del refugio sí las muestra.
-5. Revisar concurrencia y fallos entre las escrituras de solicitud y actualización de mascota: no hay transacción explícita que agrupe ambas operaciones.
+3. Historial público: muestra comentarios, salud y fechas, pero no representa las fotos anteriores; el panel del refugio sí las muestra.
+4. Revisar concurrencia y fallos entre las escrituras de solicitud y actualización de mascota: no hay transacción explícita que agrupe ambas operaciones.
 
 ## Evidencia y colaboración
 

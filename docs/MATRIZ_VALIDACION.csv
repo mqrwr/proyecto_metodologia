@@ -1,4 +1,4 @@
-Caso y entrada,Resultado esperado,Resultado obtenido al corte,Estado al corte,Ejecutor,Fecha de ejecución,Versión probada,Evidencia,Incidencia y corrección,Resultado de repetición
+﻿Caso y entrada,Resultado esperado,Resultado obtenido al corte,Estado al corte,Ejecutor,Fecha de ejecución,Versión probada,Evidencia,Incidencia y corrección,Resultado de repetición
 "P01 · Abrir catálogo
 AR-12",Mostrar tarjetas con datos e imágenes.,Se observaron nueve mascotas y controles de especie. Fig. 1.,Observado,,,,,,
 "P02 · Elegir Gatos
@@ -14,7 +14,7 @@ AR-17",Informar campos inválidos e impedir registros incompletos.,Sin ejecutar.
 "P07 · Folio y correo correctos e incorrectos
 AR-21",Mostrar solo la solicitud autorizada; rechazar combinación incorrecta.,Sin ejecutar. Solo se observó el formulario.,Pendiente,,,,,,
 "P08 · Alta, edición y baja de mascota
-AR-8, 14 y 16",Conservar datos válidos; reflejar edición; ocultar baja sin perder historial.,Sin ejecutar. R04 confirma por revisión que el borrado es físico y en cascada.,Pendiente,,,,,,
+AR-8, 14 y 16",Conservar datos válidos; reflejar edición; ocultar baja sin perder historial.,Sin ejecutar. Requiere datos de prueba y verificación de persistencia.,Pendiente,,,,,,
 "P09 · Aprobar y rechazar solicitudes
 AR-19 y 20",Guardar decisión y reflejar el estado en la consulta del solicitante.,Sin ejecutar.,Pendiente,,,,,,
 "P10 · Recargar o abrir otra sesión
@@ -34,6 +34,5 @@ AR-39","Acceder a controles, leer formularios y completar tareas sin bloqueos.",
 R01 · site.js,Sintaxis válida,node --check: salida 0.,Pasa sintaxis,,,,,,
 R02 · admin.js,Sintaxis válida,node --check: salida 0.,Pasa sintaxis,,,,,,
 R03 · motion.js,Sintaxis válida,node --check: salida 0.,Pasa sintaxis,,,,,,
-R04 · Revisar AR-16,Baja que conserve historial,"DELETE y ON DELETE CASCADE eliminan mascota, solicitudes y seguimientos.",Diferencia confirmada,,,,,,
-R05 · Revisar AR-11 y 13,Cuentas y filtros acordados,Adoptantes usan folio/correo; filtro público solo por especie.,Acordar alcance,,,,,,
-R06 · Revisar historial público,Consultar evidencia de seguimiento,"mostrarEstado muestra comentario, fecha y salud, pero no dibuja s.foto. El panel administrativo sí muestra fotos.",Validar requisito,,,,,,
+R04 · Revisar AR-11 y 13,Cuentas y filtros acordados,Adoptantes usan folio/correo; filtro público solo por especie.,Acordar alcance,,,,,,
+R05 · Revisar historial público,Consultar evidencia de seguimiento,"mostrarEstado muestra comentario, fecha y salud, pero no dibuja s.foto. El panel administrativo sí muestra fotos.",Validar requisito,,,,,,

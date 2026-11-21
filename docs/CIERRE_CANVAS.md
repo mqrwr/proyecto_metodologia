@@ -24,7 +24,6 @@ Para que figure en esa pestaña, mqrwr debe copiar el tablero a su cuenta, inclu
 
 - AR-11: cuenta de adoptante prevista frente a consulta por folio/correo implementada.
 - AR-13: filtros previstos por especie, edad y tamaño frente a filtro solo por especie.
-- AR-16: baja lógica prevista frente a borrado definitivo en cascada.
 - Definir si el historial público debe mostrar fotos anteriores; actualmente muestra comentarios, salud y fechas, mientras el panel del refugio sí muestra fotos.
 - Probar concurrencia y fallos entre las escrituras relacionadas; no hay transacción explícita que agrupe solicitud y sincronización de mascota.
 - Ejecutar la matriz con datos de ensayo. Solo se dispone del sitio publicado y no se realizaron operaciones destructivas.
