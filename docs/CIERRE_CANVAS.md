@@ -32,4 +32,6 @@ Para que figure en esa pestaña, mqrwr debe copiar el tablero a su cuenta, inclu
 
 ## Revisión de la documentación
 
+Se abrió el [PR 1](https://github.com/mqrwr/proyecto_metodologia/pull/1) desde `codex/documentacion-canvas`. La aprobación y la integración siguen pendientes.
+
 Otro integrante debe contrastar la guía y el DER con el código, revisar las diferencias de alcance, verificar enlaces y registrar su revisión del PR. La aprobación no se da por hecha. Una rama y PR de documentación realizados al cierre acreditan esa colaboración; no sustituyen evidencia de ramas de funcionalidades anteriores.

@@ -4,6 +4,9 @@ Fecha de preparación: 20 de noviembre de 2026. Código de referencia: `4a2f4f74
 
 ## Materiales
 
+- [Reporte en Word con capturas y evidencia del PR](ARGOS_Reporte_final_Canvas_Jira_Repo_v4.docx).
+- [PR de documentación pendiente de revisión](https://github.com/mqrwr/proyecto_metodologia/pull/1).
+
 - [Instalación, arquitectura y API](GUIA_INSTALACION_Y_VALIDACION.md).
 - [Diagrama entidad-relación](MODELO_DE_DATOS.md).
 - [Matriz editable de validación](MATRIZ_VALIDACION.csv).
