@@ -1,0 +1,8 @@
+# Datos reales de la base: nunca a GitHub
+config.php
+
+# Fotos que sube el refugio
+uploads/*
+!uploads/.htaccess
+
+.DS_Store

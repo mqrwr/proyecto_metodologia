@@ -1,0 +1,12 @@
+# ARGOS · seguridad básica
+Options -Indexes
+<FilesMatch "^(config\.php|database\.sql|.*\.md)$">
+  Require all denied
+</FilesMatch>
+
+# Que el navegador siempre pregunte si hay una versión nueva del HTML, CSS y JS
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|css|js)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>

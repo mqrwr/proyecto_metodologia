@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="es" class="is-loading">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Argos · Adopción de perros y gatos</title>
+  <meta name="description" content="Argos es la plataforma de adopción del refugio: conoce a los perros y gatos que buscan casa, envía tu solicitud y sigue su historia después.">
+  <meta property="og:title" content="Argos · Adopción de perros y gatos">
+  <meta property="og:description" content="Alguien te espera en casa. Conócelos, solicita y sigue su historia.">
+  <meta property="og:image" content="assets/img/hero.jpg">
+  <meta name="theme-color" content="#2A211B">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%232A211B'/%3E%3Ctext x='16' y='23' font-family='Georgia' font-style='italic' font-size='20' text-anchor='middle' fill='%23F3E3CB'%3Ea%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..500&family=DM+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/argos.css?v=4">
+  <script>try{matchMedia('(prefers-reduced-motion: reduce)').matches&&document.documentElement.classList.remove('is-loading')}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#mascotas">Saltar al catálogo</a>
+
+<!-- Pantalla de carga: un perro persigue su pelota -->
+<div class="loader" id="loader" aria-hidden="true">
+  <p class="loader__count"><span id="count">0</span><sup>%</sup></p>
+  <div class="loader__scene">
+    <svg class="pup" viewBox="0 0 220 120" role="img">
+      <g class="pup__body">
+        <path class="pup__tail" d="M44 50 C30 40 24 26 30 16" />
+        <g class="pup__leg pup__leg--bb"><rect x="52" y="62" width="10" height="34" rx="5"/></g>
+        <g class="pup__leg pup__leg--fb"><rect x="118" y="62" width="10" height="34" rx="5"/></g>
+        <ellipse cx="88" cy="58" rx="48" ry="22"/>
+        <g class="pup__leg pup__leg--bf"><rect x="60" y="64" width="11" height="34" rx="5.5"/></g>
+        <g class="pup__leg pup__leg--ff"><rect x="126" y="64" width="11" height="34" rx="5.5"/></g>
+        <g class="pup__head">
+          <circle cx="146" cy="36" r="20"/>
+          <path d="M156 34 L184 38 C188 40 188 48 182 50 L158 50 Z"/>
+          <circle class="pup__nose" cx="184" cy="42" r="4"/>
+          <circle class="pup__eye" cx="154" cy="31" r="2.6"/>
+          <path class="pup__ear" d="M136 22 C126 22 122 40 128 50 C134 46 140 34 140 24 Z"/>
+          <path class="pup__tongue" d="M168 50 C168 58 176 60 176 50 Z"/>
+        </g>
+      </g>
+    </svg>
+    <span class="ball"></span>
+    <span class="ground"></span>
+  </div>
+  <p class="loader__word">argos</p>
+</div>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#top" aria-label="Argos, inicio">argos</a>
+  <nav class="nav__links" aria-label="Principal">
+    <a href="#mascotas">Mascotas</a>
+    <a href="#proceso">Cómo adoptar</a>
+    <a href="#seguimiento">Mi folio</a>
+  </nav>
+  <a class="nav__round" href="admin/" aria-label="Acceso del refugio">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M7 15l10-6M7 11l6-3.6"/></svg>
+  </a>
+</header>
+
+<main id="top">
+
+  <!-- Hero: palabras grandes alrededor de una ventana con foto -->
+  <section class="hero" id="hero">
+    <div class="hero__frame">
+      <img class="hero__bg" src="assets/img/hero.jpg" alt="" fetchpriority="high">
+      <div class="hero__shade"></div>
+      <h1 class="hero__title">
+        <span class="w w1"><span>alguien</span></span>
+        <span class="w w2"><span>te espera</span></span>
+        <span class="w w3"><span>en casa</span></span>
+        <span class="sr">: adopción de perros y gatos del refugio Argos</span>
+      </h1>
+      <a class="hero__window" href="#mascotas">
+        <img src="assets/img/mango.jpg" alt="Mango, golden retriever en adopción">
+        <span class="hero__window-label">Conócelos <svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z" fill="currentColor"/></svg></span>
+      </a>
+      <p class="hero__lead">Perros y gatos del refugio, listos para casa. Solicita gratis, recibe tu folio y síguelo hasta que llegue.</p>
+      <a class="hero__cta" href="#mascotas">Quiero adoptar</a>
+      <p class="hero__scroll">Baja</p>
+    </div>
+  </section>
+
+  <!-- Cinta -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span>Vacunados</span><span>Desparasitados</span><span>Esterilizados</span><span>Solicitud gratis</span><span>Folio al instante</span><span>Seguimiento 6 meses</span>
+      <span>Vacunados</span><span>Desparasitados</span><span>Esterilizados</span><span>Solicitud gratis</span><span>Folio al instante</span><span>Seguimiento 6 meses</span>
+    </div>
+  </div>
+
+  <!-- Carrusel horizontal de mascotas -->
+  <section class="adopt" id="mascotas">
+    <div class="adopt__pin">
+      <div class="adopt__head">
+        <h2>Buscan <em>casa</em></h2>
+        <div class="adopt__tools">
+          <div class="chips" role="group" aria-label="Filtrar por especie">
+            <button class="chip is-on" data-filtro="todos" aria-pressed="true">Todos</button>
+            <button class="chip" data-filtro="perro" aria-pressed="false">Perros</button>
+            <button class="chip" data-filtro="gato" aria-pressed="false">Gatos</button>
+          </div>
+          <p class="adopt__count mono"><span id="pet-count">0</span> en adopción</p>
+        </div>
+      </div>
+      <div class="rail" id="rail">
+        <div class="rail__track" id="pets" aria-live="polite"><p class="pets__msg">Cargando mascotas…</p></div>
+      </div>
+      <p class="pets__demo mono" id="demo-note" hidden>Vista previa con mascotas de ejemplo</p>
+    </div>
+    <div class="cursor" id="cursor" aria-hidden="true">Conóceme</div>
+  </section>
+
+  <!-- Cómo adoptar: la frase cambia al bajar -->
+  <section class="steps" id="proceso">
+    <div class="steps__pin">
+      <p class="mono steps__kicker">Cómo adoptar <span id="step-n">01</span> / 04</p>
+      <div class="steps__stage">
+        <p class="steps__line" data-sub="Lee su ficha: edad, tamaño, carácter y salud.">Elige con calma.</p>
+        <p class="steps__line" data-sub="Un formulario corto y gratis. Tu folio llega al instante.">Solicita en minutos.</p>
+        <p class="steps__line" data-sub="El refugio te llama y agenda una visita para conocerse.">Conózcanse en persona.</p>
+        <p class="steps__line" data-sub="Con tu folio nos mandas fotos durante los primeros 6 meses.">Síguelo ya en casa.</p>
+      </div>
+      <p class="steps__sub" id="step-sub">Lee su ficha: edad, tamaño, carácter y salud.</p>
+      <div class="steps__links">
+        <a class="arrow-link" href="#mascotas">Elegir mascota <span>→</span></a>
+        <a class="arrow-link arrow-link--soft" href="#requisitos">Lo que te pedimos <span>→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Requisitos -->
+  <section class="reqs" id="requisitos">
+    <div class="wrap reqs__in">
+      <img class="reqs__img" src="assets/img/canela.jpg" alt="Perro salchicha olfateando el pasto" loading="lazy">
+      <div>
+        <p class="mono kicker">Lo que te pedimos</p>
+        <ol class="reqs__list">
+          <li><span class="mono">01</span>Ser mayor de edad y vivir en la ciudad del refugio.</li>
+          <li><span class="mono">02</span>Una visita para conocerse antes de la entrega.</li>
+          <li><span class="mono">03</span>Esterilización y vacunas al día, si aún no las tiene.</li>
+          <li><span class="mono">04</span>Un reporte al mes durante los primeros 6 meses.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Por qué Argos -->
+  <section class="story" id="argos">
+    <div class="wrap">
+      <p class="mono kicker kicker--light">Por qué Argos</p>
+      <p class="story__big" id="big">En la Odisea, Argos esperó veinte años a que Odiseo volviera a casa. Aquí ninguna mascota debería esperar tanto.</p>
+      <div class="story__strip">
+        <img src="assets/img/tira-gato-azul.jpg" alt="Gato atigrado de ojos azules" loading="lazy">
+        <img src="assets/img/nieve.jpg" alt="Perra husky de perfil" loading="lazy">
+        <img src="assets/img/tira-gato-naranja.jpg" alt="Gato naranja y blanco recostado" loading="lazy">
+        <img src="assets/img/bruno.jpg" alt="Cachorro corgi parado en dos patas" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- Para el refugio -->
+  <section class="shelter" id="refugio">
+    <div class="wrap">
+      <div class="shelter__head">
+        <h2>Y para el <em>refugio</em>, un tablero.</h2>
+        <p>Mascotas, solicitudes y seguimientos en un lugar. Cada cambio de estado lo ve el adoptante en su folio.</p>
+      </div>
+      <div class="app-frame" aria-hidden="true">
+        <div class="app-frame__bar"><i></i><i></i><i></i><span>argos / dashboard / solicitudes</span></div>
+        <div class="board">
+          <div class="board__col"><h4>Pendiente <b>2</b></h4>
+            <div class="mini"><img src="assets/img/mango.jpg" alt=""><div><strong>Mango</strong><small>Laura M. · ARG-7C21F0</small></div></div>
+            <div class="mini"><img src="assets/img/luna.jpg" alt=""><div><strong>Luna</strong><small>Diego R. · ARG-19AB4E</small></div></div>
+          </div>
+          <div class="board__col"><h4>En revisión <b>1</b></h4>
+            <div class="mini mini--live"><img src="assets/img/pancho.jpg" alt=""><div><strong>Pancho</strong><small>Ana P. · ARG-4F0D93</small></div><span class="pill pill--info">Visita el jueves</span></div>
+          </div>
+          <div class="board__col"><h4>Aprobada <b>1</b></h4>
+            <div class="mini"><img src="assets/img/michi.jpg" alt=""><div><strong>Michi</strong><small>Sofía G. · ARG-A2E771</small></div><span class="pill pill--ok">Seguimiento 2/6</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Consultar folio -->
+  <section class="track" id="seguimiento">
+    <div class="wrap track__in">
+      <div>
+        <p class="mono kicker">Mi folio</p>
+        <h2>¿Cómo va tu <em>solicitud</em>?</h2>
+        <p class="track__lead">Escribe tu folio y tu correo. Si tu adopción ya está aprobada, desde aquí nos mandas su reporte con foto.</p>
+      </div>
+      <div class="card">
+        <form id="form-estado" class="form" novalidate>
+          <div class="field"><label for="f-folio">Folio</label><input id="f-folio" name="folio" placeholder="ARG-XXXXXX" autocomplete="off" required><small class="field__err"></small></div>
+          <div class="field"><label for="f-correo">Correo</label><input id="f-correo" name="email" type="email" autocomplete="email" required><small class="field__err"></small></div>
+          <button class="btn btn--full" type="submit">Consultar mi solicitud</button>
+          <p class="form__msg" role="status"></p>
+        </form>
+        <div id="estado-out"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p class="foot__big">alguien te espera.</p>
+    <div class="foot__row">
+      <nav class="foot__links" aria-label="Pie de página">
+        <a href="#mascotas">Mascotas</a>
+        <a href="#proceso">Cómo adoptar</a>
+        <a href="#seguimiento">Mi folio</a>
+        <a href="admin/">Acceso del refugio</a>
+      </nav>
+      <a class="arrow-link arrow-link--light" href="#top">Volver arriba <span>↑</span></a>
+    </div>
+    <p class="foot__credits">Fotos de ejemplo: Unsplash vía Lorem Picsum (Licencia Unsplash); Wikimedia Commons: Basile Morin (CC BY-SA 4.0), Dietmar Rabich (CC BY-SA 4.0), Marie-Lan Nguyen (CC BY 2.5), José Reynaldo da Fonseca (CC BY 2.5), AdinaVoicu y Huoadg5888 (CC0). © 2026 Argos.</p>
+  </div>
+</footer>
+
+<dialog class="modal" id="modal" aria-labelledby="modal-title">
+  <button class="modal__x" type="button" data-close aria-label="Cerrar">×</button>
+  <div class="modal__body" id="modal-body"></div>
+</dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="assets/js/site.js?v=4" defer></script>
+<script src="assets/js/motion.js?v=4" defer></script>
+</body>
+</html>

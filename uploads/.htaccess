@@ -1,0 +1,5 @@
+# Aquí solo viven fotos: nunca se ejecuta código.
+Options -Indexes
+<FilesMatch "\.(php|phtml|phar|pl|py|cgi|sh)$">
+  Require all denied
+</FilesMatch>
