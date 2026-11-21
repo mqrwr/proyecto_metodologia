@@ -1,0 +1,46 @@
+Clave,Título,Estado Jira,Estado Projects,Origen
+AR-1,Planeación Scrum y gestión del proyecto,En curso,In Progress,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-1
+AR-2,"Diseño UX, arquitectura y prototipo",Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-2
+AR-3,Gestión de usuarios y autenticación,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-3
+AR-4,"Registro, administración y catálogo de mascotas",Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-4
+AR-5,Solicitudes y evaluación de adopción,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-5
+AR-6,Seguimiento posterior a la adopción,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-6
+AR-7,"Integración, pruebas, documentación y entrega",Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-7
+AR-8,"Como personal del refugio, quiero registrar mascotas con su información",Listo,Done,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-8
+AR-9,HU | Iniciar sesión como personal del refugio,En curso,In Progress,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-9
+AR-10,HU | Restringir funciones según el rol de usuario,Listo,Done,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-10
+AR-11,HU | Registrarse e iniciar sesión como adoptante,Listo,Done,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-11
+AR-12,HU | Consultar un catálogo público de mascotas,Listo,Done,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-12
+AR-13,"HU | Filtrar mascotas por especie, edad y tamaño",Listo,Done,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-13
+AR-14,HU | Editar la información de una mascota,Listo,Done,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-14
+AR-15,HU | Consultar la ficha completa y disponibilidad de una mascota,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-15
+AR-16,HU | Dar de baja lógicamente una mascota,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-16
+AR-17,HU | Enviar un formulario de solicitud de adopción,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-17
+AR-18,HU | Guardar y vincular la solicitud a la mascota y al solicitante,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-18
+AR-19,HU | Consultar las solicitudes recibidas desde un panel administrativo,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-19
+AR-20,HU | Aprobar o rechazar solicitudes con cambio de estado,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-20
+AR-21,HU | Consultar el estado de mi solicitud de adopción,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-21
+AR-22,HU | Registrar bitácoras de seguimiento posterior a la adopción,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-22
+AR-23,HU | Adjuntar fotografías periódicas al seguimiento,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-23
+AR-24,HU | Consultar el historial de seguimiento de una mascota adoptada,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-24
+AR-25,ACT | Refinar y priorizar Product Backlog con el equipo,Listo,Done,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-25
+AR-26,"ACT | Confirmar responsables, canales, acuerdos Scrum y definición de Hecho",Listo,Done,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-26
+AR-27,ACT | Configurar tablero Jira y etiquetas para seguimiento,Listo,Done,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-27
+AR-28,ACT | Crear repositorio GitHub y reglas básicas de ramas,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-28
+AR-29,"ACT | Diseñar wireframes del inicio, catálogo, ficha y formulario",Listo,Done,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-29
+AR-30,ACT | Preparar prototipo en Figma y revisarlo con el equipo,Listo,Done,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-30
+AR-31,"ACT | Definir stack tecnológico, arquitectura y rutas API",Listo,Done,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-31
+AR-32,"ACT | Inicializar proyecto frontend, navegación y estilos base",En curso,In Progress,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-32
+AR-33,ACT | Diseñar modelo de datos para usuarios y permisos,Listo,Done,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-33
+AR-34,ACT | Diseñar base de datos de mascotas e insertar registros de prueba,Listo,Done,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-34
+AR-35,ACT | Definir esquema y endpoints de solicitudes de adopción,En curso,In Progress,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-35
+AR-36,ACT | Realizar revisión del Sprint 1 y actualizar backlog,Listo,Done,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-36
+AR-37,ACT | Integrar el formulario de adopción con los servicios backend,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-37
+AR-38,ACT | Implementar y validar almacenamiento de bitácoras y fotos,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-38
+AR-39,ACT | Ejecutar pruebas funcionales integrales y controles básicos de privacidad,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-39
+AR-40,ACT | Elaborar documentación técnica y guía breve de uso,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-40
+AR-41,"ACT | Tomar capturas de Jira, Figma, GitHub y pruebas como evidencia",Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-41
+AR-42,"ACT | Preparar demostración, presentación y entrega final",Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-42
+AR-43,ACT | Realizar Sprint Review y retrospectiva final,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-43
+AR-44,"ACT | Identificar riesgos, dependencias y acciones de mitigación",En curso,In Progress,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-44
+AR-45,ACT | Documentar bloqueos reales y cómo se resolvieron,Por hacer,Todo,https://tecmilenio-team-lv4f8ewp.atlassian.net/browse/AR-45

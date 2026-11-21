@@ -1,0 +1,39 @@
+Caso y entrada,Resultado esperado,Resultado obtenido al corte,Estado al corte,Ejecutor,Fecha de ejecución,Versión probada,Evidencia,Incidencia y corrección,Resultado de repetición
+"P01 · Abrir catálogo
+AR-12",Mostrar tarjetas con datos e imágenes.,Se observaron nueve mascotas y controles de especie. Fig. 1.,Observado,,,,,,
+"P02 · Elegir Gatos
+AR-13",Mostrar únicamente gatos y actualizar cantidad.,La revisión inicial mostró el filtro activo y contador de dos. Falta evidencia final y comprobar otros filtros.,Parcial,,,,,,
+"P03 · Abrir Luna
+AR-15 y 17","Mostrar datos, disponibilidad y formulario asociado.",Se abrió la ficha con datos de Luna y formulario. Fig. 2.,Observado,,,,,,
+"P04 · Abrir acceso del refugio
+AR-9",Presentar formulario de ingreso sin mostrar el panel.,Se observó la pantalla con correo y contraseña. Fig. 4.,Observado,,,,,,
+"P05 · Solicitud válida para mascota disponible
+AR-17 y 18","Guardar una solicitud, vincular mascota y devolver confirmación o folio.",Sin ejecutar. Requiere datos de prueba y verificación de persistencia.,Pendiente,,,,,,
+"P06 · Campos vacíos o correo inválido
+AR-17",Informar campos inválidos e impedir registros incompletos.,Sin ejecutar.,Pendiente,,,,,,
+"P07 · Folio y correo correctos e incorrectos
+AR-21",Mostrar solo la solicitud autorizada; rechazar combinación incorrecta.,Sin ejecutar. Solo se observó el formulario.,Pendiente,,,,,,
+"P08 · Alta, edición y baja de mascota
+AR-8, 14 y 16",Conservar datos válidos; reflejar edición; ocultar baja sin perder historial.,Sin ejecutar. R04 confirma por revisión que el borrado es físico y en cascada.,Pendiente,,,,,,
+"P09 · Aprobar y rechazar solicitudes
+AR-19 y 20",Guardar decisión y reflejar el estado en la consulta del solicitante.,Sin ejecutar.,Pendiente,,,,,,
+"P10 · Recargar o abrir otra sesión
+AR-18 y 20",Conservar solicitudes y estados guardados.,Sin ejecutar.,Pendiente,,,,,,
+"P11 · Bitácora con fecha y observaciones
+AR-22 y 24",Guardar y consultar el registro de una adopción aprobada.,Sin ejecutar.,Pendiente,,,,,,
+"P12 · Imagen válida y archivo no admitido
+AR-23",Guardar imagen vinculada; rechazar formato o tamaño no permitido.,"Sin ejecutar. Código admite JPG, PNG y WEBP; ejemplo de configuración: 5 MB.",Pendiente,,,,,,
+"P13 · Credenciales incorrectas y acceso sin sesión
+AR-9 y 10",Rechazar ingreso y proteger operaciones privadas.,Sin ejecutar. La pantalla de acceso no demuestra los permisos.,Pendiente,,,,,,
+"P14 · Solicitud duplicada o mascota no disponible
+AR-18 y 20",Aplicar reglas acordadas sin duplicar por reenvío ni corromper estados.,Sin ejecutar. Reglas finales por confirmar.,Pendiente,,,,,,
+"P15 · Error controlado de servicio
+AR-39",Mostrar mensaje útil y conservar consistencia de datos.,Sin ejecutar. Probar en entorno de ensayo.,Pendiente,,,,,,
+"P16 · Navegación con teclado y en móvil
+AR-39","Acceder a controles, leer formularios y completar tareas sin bloqueos.",Sin ejecutar.,Pendiente,,,,,,
+R01 · site.js,Sintaxis válida,node --check: salida 0.,Pasa sintaxis,,,,,,
+R02 · admin.js,Sintaxis válida,node --check: salida 0.,Pasa sintaxis,,,,,,
+R03 · motion.js,Sintaxis válida,node --check: salida 0.,Pasa sintaxis,,,,,,
+R04 · Revisar AR-16,Baja que conserve historial,"DELETE y ON DELETE CASCADE eliminan mascota, solicitudes y seguimientos.",Diferencia confirmada,,,,,,
+R05 · Revisar AR-11 y 13,Cuentas y filtros acordados,Adoptantes usan folio/correo; filtro público solo por especie.,Acordar alcance,,,,,,
+R06 · Revisar historial público,Consultar evidencia de seguimiento,"mostrarEstado muestra comentario, fecha y salud, pero no dibuja s.foto. El panel administrativo sí muestra fotos.",Validar requisito,,,,,,

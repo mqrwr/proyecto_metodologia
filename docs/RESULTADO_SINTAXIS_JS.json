@@ -1,0 +1,28 @@
+{
+  "commit": "4a2f4f74ea30919e9797eb6d7946cf3b58675b4f",
+  "fecha": "2026-11-20",
+  "tipo": "sintaxis JavaScript; no prueba funcional ni PHP",
+  "resultados": [
+    {
+      "archivo": "assets/js/site.js",
+      "comando": "node --check",
+      "exit_code": 0,
+      "salida": "",
+      "sha256": "42d40804cf424eb74ae3ace1dcfc7db84a4beabc43351fb783489fbacd6e63cc"
+    },
+    {
+      "archivo": "assets/js/admin.js",
+      "comando": "node --check",
+      "exit_code": 0,
+      "salida": "",
+      "sha256": "efe9d787a25ec112b80e6293ed49cbcfe7b2bb68df76f0f742750aea25b2ffa9"
+    },
+    {
+      "archivo": "assets/js/motion.js",
+      "comando": "node --check",
+      "exit_code": 0,
+      "salida": "",
+      "sha256": "464300928b41c296f27c43b14f7efe7ac03717d9ebfe3d2127df363ee6a98c07"
+    }
+  ]
+}
