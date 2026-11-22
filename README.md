@@ -1,9 +1,11 @@
-# proyecto_metodologia
+# ARGOS
 
-ARGOS: plataforma web de adopción y seguimiento de mascotas.
+Proyecto de la materia Metodologías ágiles. ARGOS es una aplicación web para consultar mascotas en adopción, enviar solicitudes y dar seguimiento a las adopciones desde un refugio.
 
-- [Aplicación publicada](https://tecmisoft.com/Argos/)
-- [Tablero GitHub Projects de ARGOS](https://github.com/users/Maj0606/projects/1)
-- [Documentación propuesta para revisión](https://github.com/mqrwr/proyecto_metodologia/tree/codex/documentacion-canvas/docs)
+El sitio tiene un catálogo público y un panel para el personal del refugio. Está desarrollado con HTML, CSS y JavaScript, con una API en PHP y una base de datos MySQL/MariaDB.
 
-El tablero conserva las claves y estados del corte de Jira del 20 de noviembre de 2026. Los estados de seguimiento no equivalen a pruebas funcionales aprobadas.
+- [Abrir ARGOS](https://tecmisoft.com/Argos/)
+- [Tablero del proyecto](https://github.com/users/Maj0606/projects/1)
+- [Reporte, guía y pruebas](https://github.com/mqrwr/proyecto_metodologia/tree/codex/documentacion-canvas/docs)
+
+La documentación está en revisión en el [PR #1](https://github.com/mqrwr/proyecto_metodologia/pull/1). Las pruebas que faltan están indicadas en la matriz de validación.
