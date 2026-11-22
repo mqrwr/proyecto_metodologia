@@ -1,37 +1,33 @@
-# Estado de la entrega de Canvas
+# Pendientes para la entrega
 
-Fuente de requisitos: [entrega final](https://cursos.tecmilenio.mx/courses/246820/assignments/4480541). Fecha de entrega observada: 23 de noviembre de 2026 a las 23:59.
+Entrega: 23 de noviembre de 2026, a las 23:59. Este resumen reúne lo registrado el 20 de noviembre; falta actualizarlo con las últimas pruebas y acuerdos del equipo.
 
-| Criterio | Evidencia disponible | Pendiente |
+| Parte | Ya tenemos | Falta completar |
 |---|---|---|
-| Prototipo y lógica | Sitio y repositorio público; operaciones revisadas en código | Recorrido integral probado y versión desplegada confirmada |
-| UI/UX | Capturas del catálogo, ficha, folio y acceso | Panel, aprobación y seguimiento con datos de prueba; prueba móvil/teclado |
-| Datos | Esquema SQL, DER, explicación CRUD | Evidencia de persistencia e integridad antes/después |
-| Pruebas | Matriz y tres comprobaciones de sintaxis JS con salida 0 | Ejecución funcional, incidencias y repetición tras correcciones |
-| Reporte técnico y evidencia ágil | Arquitectura, guía, corte Jira, Project y documentación en rama | Revisión real del PR, retrospectiva y video de 3–5 minutos |
+| Aplicación | Sitio publicado y código en GitHub | Probar el recorrido completo y confirmar qué versión está publicada |
+| Interfaz | Capturas del catálogo, ficha, consulta y acceso | Capturas del panel, aprobación y seguimiento; pruebas en móvil y con teclado |
+| Base de datos | Esquema SQL, diagrama y explicación de las operaciones | Comprobar que los cambios se guardan y añadir capturas del antes y después |
+| Pruebas | Matriz de casos y revisión de sintaxis de los tres archivos JavaScript | Ejecutar los casos pendientes y registrar errores, correcciones y resultados |
+| Reporte y trabajo en equipo | Reporte, guía, respaldo de Jira y tablero | Revisión del PR, retrospectiva y video de 3 a 5 minutos |
 
-## Tablero y métricas
+## Tablero
 
-El [Project](https://github.com/users/Maj0606/projects/1) se creó al cierre y contiene 45 tarjetas del corte revisado de Jira: 7 épicas, 17 historias y 21 tareas. Sus estados son 25 Todo, 5 In Progress y 15 Done. Se trasladaron claves, títulos y estados, sin reconstruir un historial anterior en GitHub.
+El [tablero de GitHub](https://github.com/users/Maj0606/projects/1) contiene las 45 tarjetas copiadas de Jira el 20 de noviembre: 7 épicas, 17 historias y 21 tareas. En esa fecha había 25 por hacer, 5 en curso y 15 listas.
 
-Seis de las 17 historias figuran Listo: **35.3 %**. Este indicador describe Jira, no el porcentaje de software validado. WIP observado: cinco elementos En curso. No se declara un límite WIP acordado ni un burndown histórico.
+De las 17 historias, 6 estaban listas: **35.3 %**. Es un dato del tablero; las pruebas funcionales se registran por separado en la matriz. El tablero de GitHub se creó para esta entrega y no contiene el historial anterior de Jira.
 
-El Project pertenece a Maj0606 y el repo a mqrwr. Se añadió su enlace al README y se configuró el repo como predeterminado del Project. La pestaña Projects del repo todavía no lo lista. GitHub limita el listado manual a proyectos del mismo propietario: [documentación oficial](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/adding-your-project-to-a-repository).
+El enlace ya aparece en el README. Falta que mqrwr copie el tablero a su cuenta y lo vincule para que también aparezca en la pestaña Projects del repo. Después habrá que actualizar los enlaces y comprobar que estén las 45 tarjetas.
 
-Para que figure en esa pestaña, mqrwr debe copiar el tablero a su cuenta, incluir sus tarjetas y vincular esa copia. Después se deben comprobar los 45 elementos y actualizar los enlaces del reporte. No se debe cambiar la propiedad del repositorio para resolverlo.
+## Puntos por revisar con el equipo
 
-## Acuerdos y comprobaciones pendientes
+- **AR-11:** se propusieron cuentas para adoptantes, pero la consulta actual funciona con folio y correo. Acordar cuál será el alcance final.
+- **AR-13:** el catálogo filtra por especie. Confirmar si también se agregarán los filtros de edad y tamaño.
+- **Fotos del seguimiento:** el panel muestra fotos anteriores; la consulta pública muestra comentarios, salud y fechas. Definir qué debe ver el adoptante.
+- **Guardado de datos:** probar solicitudes simultáneas y fallos entre operaciones. Las escrituras relacionadas no están agrupadas en una transacción.
+- **Pruebas completas:** conseguir acceso y datos de prueba para ejecutar la matriz. Hasta ahora solo se revisó la parte pública del sitio y el código.
+- **Retrospectiva:** escribir qué funcionó, qué dificultades hubo y qué cambiaríamos en otro proyecto, con las aportaciones del equipo.
+- **Video:** grabar el recorrido, revisar la duración y añadir el enlace. Ya está preparado el guion.
 
-- AR-11: cuenta de adoptante prevista frente a consulta por folio/correo implementada.
-- AR-13: filtros previstos por especie, edad y tamaño frente a filtro solo por especie.
-- Definir si el historial público debe mostrar fotos anteriores; actualmente muestra comentarios, salud y fechas, mientras el panel del refugio sí muestra fotos.
-- Probar concurrencia y fallos entre las escrituras relacionadas; no hay transacción explícita que agrupe solicitud y sincronización de mascota.
-- Ejecutar la matriz con datos de ensayo. Solo se dispone del sitio publicado y no se realizaron operaciones destructivas.
-- Registrar retrospectiva, contribuciones y aceptación reales del equipo.
-- Incorporar el video y su enlace de acceso. El guion no sustituye la grabación.
+## Revisión en GitHub
 
-## Revisión de la documentación
-
-Se abrió el [PR 1](https://github.com/mqrwr/proyecto_metodologia/pull/1) desde `codex/documentacion-canvas`. La aprobación y la integración siguen pendientes.
-
-Otro integrante debe contrastar la guía y el DER con el código, revisar las diferencias de alcance, verificar enlaces y registrar su revisión del PR. La aprobación no se da por hecha. Una rama y PR de documentación realizados al cierre acreditan esa colaboración; no sustituyen evidencia de ramas de funcionalidades anteriores.
+El [PR #1](https://github.com/mqrwr/proyecto_metodologia/pull/1) sigue abierto. Otro integrante debe revisar la guía, el modelo de datos y los enlaces antes de aprobarlo. También falta reunir las ramas y revisiones que se hayan usado durante el desarrollo; este PR corresponde a la documentación de la entrega.
