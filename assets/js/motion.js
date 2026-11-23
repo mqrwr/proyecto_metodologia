@@ -149,9 +149,6 @@
     gsap.fromTo(img, { y: 60 + (i % 2) * 50 }, { y: 0, ease: 'none', scrollTrigger: { trigger: '.story__strip', start: 'top bottom', end: 'bottom 60%', scrub: true } });
   });
 
-  // ---------- tablero del refugio: se acerca al llegar ----------
-  gsap.fromTo('.app-frame', { scale: 0.9, y: 40 }, { scale: 1, y: 0, ease: 'none', scrollTrigger: { trigger: '.app-frame', start: 'top bottom', end: 'top 35%', scrub: true } });
-
   // ---------- pie: la frase grande sube letra por letra ----------
   const footChars = split($('.foot__big'), 'ch');
   gsap.from(footChars, { yPercent: 100, autoAlpha: 0, duration: 1, ease: 'expo.out', stagger: 0.03, scrollTrigger: { trigger: '.foot', start: 'top 75%', once: true } });
